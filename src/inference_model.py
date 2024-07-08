@@ -31,8 +31,7 @@ def load_image(img_path: str, img_size: Tuple[int, int] = (768, 768)) -> np.ndar
 # Paths to the data
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 model_path = os.path.join(base_dir, 'src', 'unet_model.h5')
-img_path = os.path.join(base_dir, 'airbus-ship-detection', 'train_v2',
-                        '69aa9f0f4.jpg')  # Убедитесь, что путь корректен
+img_path = os.path.join(base_dir, 'src','4c5bdcd42.jpg')
 
 # Load the model
 model = tf.keras.models.load_model(model_path)
