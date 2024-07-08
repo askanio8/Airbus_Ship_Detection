@@ -16,20 +16,21 @@ The model is based on the U-Net architecture, which is widely used for image seg
 git clone https://github.com/username/airbus-ship-detection.git
 cd airbus-ship-detection
 ```
+2. Download dataset from https://www.kaggle.com/c/airbus-ship-detection/data and put it in this directory.
 
-2. Install the required dependencies:
+3. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Train the model:
+4. Train the model:
 
 ```bash
 python src/train_model.py
 ```
 
-4. Run inference:
+5. Run inference:
 
 ```bash
 python src/inference_model.py
