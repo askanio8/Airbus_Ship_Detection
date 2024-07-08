@@ -1,4 +1,4 @@
-# Airbus Ship Detection Test Task
+# 🚢 Airbus Ship Detection Test Task
 
 ## Project Description
 
