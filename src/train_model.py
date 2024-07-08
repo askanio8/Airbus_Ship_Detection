@@ -19,8 +19,8 @@ def dice_coefficient(y_true: tf.Tensor, y_pred: tf.Tensor) -> tf.Tensor:
 
 # Paths to the data
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-img_folder = os.path.join(base_dir, 'airbus-ship-detection-subset', 'train_v2_subset')
-csv_path = os.path.join(base_dir, 'airbus-ship-detection-subset', 'train_ship_segmentations_v2_subset.csv')
+img_folder = os.path.join(base_dir, 'airbus-ship-detection', 'train_v2')
+csv_path = os.path.join(base_dir, 'airbus-ship-detection', 'train_ship_segmentations_v2.csv')
 
 
 # Function to decode RLE to a mask
